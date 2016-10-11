@@ -1,0 +1,61 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Test Alloc",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/build/alloc_test",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}",
+            "environment": [],
+            "externalConsole": true,
+            "linux": {
+                "MIMode": "gdb"
+            },
+            "osx": {
+                "MIMode": "lldb"
+            },
+            "windows": {
+                "MIMode": "gdb"
+            }
+        },
+                {
+            "name": "Test String",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceRoot}/build/string_test",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceRoot}",
+            "environment": [],
+            "externalConsole": true,
+            "linux": {
+                "MIMode": "gdb"
+            },
+            "osx": {
+                "MIMode": "lldb"
+            },
+            "windows": {
+                "MIMode": "gdb"
+            }
+        },
+        {
+            "name": "C++ Attach",
+            "type": "cppdbg",
+            "request": "attach",
+            "program": "enter program name, for example ${workspaceRoot}/a.out",
+            "processId": "${command.pickProcess}",
+            "linux": {
+                "MIMode": "gdb"
+            },
+            "osx": {
+                "MIMode": "lldb"
+            },
+            "windows": {
+                "MIMode": "gdb"
+            }
+        }
+    ]
+}
