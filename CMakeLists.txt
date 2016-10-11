@@ -17,9 +17,12 @@ set(SOURCE_FILES
     symtab.c)
 
 add_executable(ccpoc ${SOURCE_FILES} main.c)
+
 add_executable(alloc_test ${SOURCE_FILES} alloc_test.c)
 add_executable(string_test ${SOURCE_FILES} string_test.c)
+add_executable(vector_test ${SOURCE_FILES} vector_test.c)
 
 add_test(test_alloc alloc_test)
 add_test(test_string string_test)
+add_test(test_vector vector_test)
 

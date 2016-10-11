@@ -1,6 +1,46 @@
 [
 {
   "directory": "/Users/Rayiner/Projects/ccpoc/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/vector_test.dir/alloc.c.o   -c /Users/Rayiner/Projects/ccpoc/alloc.c",
+  "file": "/Users/Rayiner/Projects/ccpoc/alloc.c"
+},
+{
+  "directory": "/Users/Rayiner/Projects/ccpoc/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/vector_test.dir/hash.c.o   -c /Users/Rayiner/Projects/ccpoc/hash.c",
+  "file": "/Users/Rayiner/Projects/ccpoc/hash.c"
+},
+{
+  "directory": "/Users/Rayiner/Projects/ccpoc/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/vector_test.dir/hashtab.c.o   -c /Users/Rayiner/Projects/ccpoc/hashtab.c",
+  "file": "/Users/Rayiner/Projects/ccpoc/hashtab.c"
+},
+{
+  "directory": "/Users/Rayiner/Projects/ccpoc/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/vector_test.dir/list.c.o   -c /Users/Rayiner/Projects/ccpoc/list.c",
+  "file": "/Users/Rayiner/Projects/ccpoc/list.c"
+},
+{
+  "directory": "/Users/Rayiner/Projects/ccpoc/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/vector_test.dir/vec.c.o   -c /Users/Rayiner/Projects/ccpoc/vec.c",
+  "file": "/Users/Rayiner/Projects/ccpoc/vec.c"
+},
+{
+  "directory": "/Users/Rayiner/Projects/ccpoc/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/vector_test.dir/string.c.o   -c /Users/Rayiner/Projects/ccpoc/string.c",
+  "file": "/Users/Rayiner/Projects/ccpoc/string.c"
+},
+{
+  "directory": "/Users/Rayiner/Projects/ccpoc/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/vector_test.dir/symtab.c.o   -c /Users/Rayiner/Projects/ccpoc/symtab.c",
+  "file": "/Users/Rayiner/Projects/ccpoc/symtab.c"
+},
+{
+  "directory": "/Users/Rayiner/Projects/ccpoc/build",
+  "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/vector_test.dir/vector_test.c.o   -c /Users/Rayiner/Projects/ccpoc/vector_test.c",
+  "file": "/Users/Rayiner/Projects/ccpoc/vector_test.c"
+},
+{
+  "directory": "/Users/Rayiner/Projects/ccpoc/build",
   "command": "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -g -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk   -o CMakeFiles/string_test.dir/alloc.c.o   -c /Users/Rayiner/Projects/ccpoc/alloc.c",
   "file": "/Users/Rayiner/Projects/ccpoc/alloc.c"
 },

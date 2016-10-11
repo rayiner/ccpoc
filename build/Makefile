@@ -122,6 +122,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named vector_test
+
+# Build rule for target.
+vector_test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 vector_test
+.PHONY : vector_test
+
+# fast build rule for target.
+vector_test/fast:
+	$(MAKE) -f CMakeFiles/vector_test.dir/build.make CMakeFiles/vector_test.dir/build
+.PHONY : vector_test/fast
+
+#=============================================================================
 # Target rules for targets named ContinuousCoverage
 
 # Build rule for target.
@@ -530,6 +543,7 @@ alloc.o: alloc.c.o
 
 # target to build an object file
 alloc.c.o:
+	$(MAKE) -f CMakeFiles/vector_test.dir/build.make CMakeFiles/vector_test.dir/alloc.c.o
 	$(MAKE) -f CMakeFiles/string_test.dir/build.make CMakeFiles/string_test.dir/alloc.c.o
 	$(MAKE) -f CMakeFiles/ccpoc.dir/build.make CMakeFiles/ccpoc.dir/alloc.c.o
 	$(MAKE) -f CMakeFiles/alloc_test.dir/build.make CMakeFiles/alloc_test.dir/alloc.c.o
@@ -541,6 +555,7 @@ alloc.i: alloc.c.i
 
 # target to preprocess a source file
 alloc.c.i:
+	$(MAKE) -f CMakeFiles/vector_test.dir/build.make CMakeFiles/vector_test.dir/alloc.c.i
 	$(MAKE) -f CMakeFiles/string_test.dir/build.make CMakeFiles/string_test.dir/alloc.c.i
 	$(MAKE) -f CMakeFiles/ccpoc.dir/build.make CMakeFiles/ccpoc.dir/alloc.c.i
 	$(MAKE) -f CMakeFiles/alloc_test.dir/build.make CMakeFiles/alloc_test.dir/alloc.c.i
@@ -552,6 +567,7 @@ alloc.s: alloc.c.s
 
 # target to generate assembly for a file
 alloc.c.s:
+	$(MAKE) -f CMakeFiles/vector_test.dir/build.make CMakeFiles/vector_test.dir/alloc.c.s
 	$(MAKE) -f CMakeFiles/string_test.dir/build.make CMakeFiles/string_test.dir/alloc.c.s
 	$(MAKE) -f CMakeFiles/ccpoc.dir/build.make CMakeFiles/ccpoc.dir/alloc.c.s
 	$(MAKE) -f CMakeFiles/alloc_test.dir/build.make CMakeFiles/alloc_test.dir/alloc.c.s
@@ -590,6 +606,7 @@ hash.o: hash.c.o
 
 # target to build an object file
 hash.c.o:
+	$(MAKE) -f CMakeFiles/vector_test.dir/build.make CMakeFiles/vector_test.dir/hash.c.o
 	$(MAKE) -f CMakeFiles/string_test.dir/build.make CMakeFiles/string_test.dir/hash.c.o
 	$(MAKE) -f CMakeFiles/ccpoc.dir/build.make CMakeFiles/ccpoc.dir/hash.c.o
 	$(MAKE) -f CMakeFiles/alloc_test.dir/build.make CMakeFiles/alloc_test.dir/hash.c.o
@@ -601,6 +618,7 @@ hash.i: hash.c.i
 
 # target to preprocess a source file
 hash.c.i:
+	$(MAKE) -f CMakeFiles/vector_test.dir/build.make CMakeFiles/vector_test.dir/hash.c.i
 	$(MAKE) -f CMakeFiles/string_test.dir/build.make CMakeFiles/string_test.dir/hash.c.i
 	$(MAKE) -f CMakeFiles/ccpoc.dir/build.make CMakeFiles/ccpoc.dir/hash.c.i
 	$(MAKE) -f CMakeFiles/alloc_test.dir/build.make CMakeFiles/alloc_test.dir/hash.c.i
@@ -612,6 +630,7 @@ hash.s: hash.c.s
 
 # target to generate assembly for a file
 hash.c.s:
+	$(MAKE) -f CMakeFiles/vector_test.dir/build.make CMakeFiles/vector_test.dir/hash.c.s
 	$(MAKE) -f CMakeFiles/string_test.dir/build.make CMakeFiles/string_test.dir/hash.c.s
 	$(MAKE) -f CMakeFiles/ccpoc.dir/build.make CMakeFiles/ccpoc.dir/hash.c.s
 	$(MAKE) -f CMakeFiles/alloc_test.dir/build.make CMakeFiles/alloc_test.dir/hash.c.s
@@ -623,6 +642,7 @@ hashtab.o: hashtab.c.o
 
 # target to build an object file
 hashtab.c.o:
+	$(MAKE) -f CMakeFiles/vector_test.dir/build.make CMakeFiles/vector_test.dir/hashtab.c.o
 	$(MAKE) -f CMakeFiles/string_test.dir/build.make CMakeFiles/string_test.dir/hashtab.c.o
 	$(MAKE) -f CMakeFiles/ccpoc.dir/build.make CMakeFiles/ccpoc.dir/hashtab.c.o
 	$(MAKE) -f CMakeFiles/alloc_test.dir/build.make CMakeFiles/alloc_test.dir/hashtab.c.o
@@ -634,6 +654,7 @@ hashtab.i: hashtab.c.i
 
 # target to preprocess a source file
 hashtab.c.i:
+	$(MAKE) -f CMakeFiles/vector_test.dir/build.make CMakeFiles/vector_test.dir/hashtab.c.i
 	$(MAKE) -f CMakeFiles/string_test.dir/build.make CMakeFiles/string_test.dir/hashtab.c.i
 	$(MAKE) -f CMakeFiles/ccpoc.dir/build.make CMakeFiles/ccpoc.dir/hashtab.c.i
 	$(MAKE) -f CMakeFiles/alloc_test.dir/build.make CMakeFiles/alloc_test.dir/hashtab.c.i
@@ -645,6 +666,7 @@ hashtab.s: hashtab.c.s
 
 # target to generate assembly for a file
 hashtab.c.s:
+	$(MAKE) -f CMakeFiles/vector_test.dir/build.make CMakeFiles/vector_test.dir/hashtab.c.s
 	$(MAKE) -f CMakeFiles/string_test.dir/build.make CMakeFiles/string_test.dir/hashtab.c.s
 	$(MAKE) -f CMakeFiles/ccpoc.dir/build.make CMakeFiles/ccpoc.dir/hashtab.c.s
 	$(MAKE) -f CMakeFiles/alloc_test.dir/build.make CMakeFiles/alloc_test.dir/hashtab.c.s
@@ -656,6 +678,7 @@ list.o: list.c.o
 
 # target to build an object file
 list.c.o:
+	$(MAKE) -f CMakeFiles/vector_test.dir/build.make CMakeFiles/vector_test.dir/list.c.o
 	$(MAKE) -f CMakeFiles/string_test.dir/build.make CMakeFiles/string_test.dir/list.c.o
 	$(MAKE) -f CMakeFiles/ccpoc.dir/build.make CMakeFiles/ccpoc.dir/list.c.o
 	$(MAKE) -f CMakeFiles/alloc_test.dir/build.make CMakeFiles/alloc_test.dir/list.c.o
@@ -667,6 +690,7 @@ list.i: list.c.i
 
 # target to preprocess a source file
 list.c.i:
+	$(MAKE) -f CMakeFiles/vector_test.dir/build.make CMakeFiles/vector_test.dir/list.c.i
 	$(MAKE) -f CMakeFiles/string_test.dir/build.make CMakeFiles/string_test.dir/list.c.i
 	$(MAKE) -f CMakeFiles/ccpoc.dir/build.make CMakeFiles/ccpoc.dir/list.c.i
 	$(MAKE) -f CMakeFiles/alloc_test.dir/build.make CMakeFiles/alloc_test.dir/list.c.i
@@ -678,6 +702,7 @@ list.s: list.c.s
 
 # target to generate assembly for a file
 list.c.s:
+	$(MAKE) -f CMakeFiles/vector_test.dir/build.make CMakeFiles/vector_test.dir/list.c.s
 	$(MAKE) -f CMakeFiles/string_test.dir/build.make CMakeFiles/string_test.dir/list.c.s
 	$(MAKE) -f CMakeFiles/ccpoc.dir/build.make CMakeFiles/ccpoc.dir/list.c.s
 	$(MAKE) -f CMakeFiles/alloc_test.dir/build.make CMakeFiles/alloc_test.dir/list.c.s
@@ -716,6 +741,7 @@ string.o: string.c.o
 
 # target to build an object file
 string.c.o:
+	$(MAKE) -f CMakeFiles/vector_test.dir/build.make CMakeFiles/vector_test.dir/string.c.o
 	$(MAKE) -f CMakeFiles/string_test.dir/build.make CMakeFiles/string_test.dir/string.c.o
 	$(MAKE) -f CMakeFiles/ccpoc.dir/build.make CMakeFiles/ccpoc.dir/string.c.o
 	$(MAKE) -f CMakeFiles/alloc_test.dir/build.make CMakeFiles/alloc_test.dir/string.c.o
@@ -727,6 +753,7 @@ string.i: string.c.i
 
 # target to preprocess a source file
 string.c.i:
+	$(MAKE) -f CMakeFiles/vector_test.dir/build.make CMakeFiles/vector_test.dir/string.c.i
 	$(MAKE) -f CMakeFiles/string_test.dir/build.make CMakeFiles/string_test.dir/string.c.i
 	$(MAKE) -f CMakeFiles/ccpoc.dir/build.make CMakeFiles/ccpoc.dir/string.c.i
 	$(MAKE) -f CMakeFiles/alloc_test.dir/build.make CMakeFiles/alloc_test.dir/string.c.i
@@ -738,6 +765,7 @@ string.s: string.c.s
 
 # target to generate assembly for a file
 string.c.s:
+	$(MAKE) -f CMakeFiles/vector_test.dir/build.make CMakeFiles/vector_test.dir/string.c.s
 	$(MAKE) -f CMakeFiles/string_test.dir/build.make CMakeFiles/string_test.dir/string.c.s
 	$(MAKE) -f CMakeFiles/ccpoc.dir/build.make CMakeFiles/ccpoc.dir/string.c.s
 	$(MAKE) -f CMakeFiles/alloc_test.dir/build.make CMakeFiles/alloc_test.dir/string.c.s
@@ -776,6 +804,7 @@ symtab.o: symtab.c.o
 
 # target to build an object file
 symtab.c.o:
+	$(MAKE) -f CMakeFiles/vector_test.dir/build.make CMakeFiles/vector_test.dir/symtab.c.o
 	$(MAKE) -f CMakeFiles/string_test.dir/build.make CMakeFiles/string_test.dir/symtab.c.o
 	$(MAKE) -f CMakeFiles/ccpoc.dir/build.make CMakeFiles/ccpoc.dir/symtab.c.o
 	$(MAKE) -f CMakeFiles/alloc_test.dir/build.make CMakeFiles/alloc_test.dir/symtab.c.o
@@ -787,6 +816,7 @@ symtab.i: symtab.c.i
 
 # target to preprocess a source file
 symtab.c.i:
+	$(MAKE) -f CMakeFiles/vector_test.dir/build.make CMakeFiles/vector_test.dir/symtab.c.i
 	$(MAKE) -f CMakeFiles/string_test.dir/build.make CMakeFiles/string_test.dir/symtab.c.i
 	$(MAKE) -f CMakeFiles/ccpoc.dir/build.make CMakeFiles/ccpoc.dir/symtab.c.i
 	$(MAKE) -f CMakeFiles/alloc_test.dir/build.make CMakeFiles/alloc_test.dir/symtab.c.i
@@ -798,6 +828,7 @@ symtab.s: symtab.c.s
 
 # target to generate assembly for a file
 symtab.c.s:
+	$(MAKE) -f CMakeFiles/vector_test.dir/build.make CMakeFiles/vector_test.dir/symtab.c.s
 	$(MAKE) -f CMakeFiles/string_test.dir/build.make CMakeFiles/string_test.dir/symtab.c.s
 	$(MAKE) -f CMakeFiles/ccpoc.dir/build.make CMakeFiles/ccpoc.dir/symtab.c.s
 	$(MAKE) -f CMakeFiles/alloc_test.dir/build.make CMakeFiles/alloc_test.dir/symtab.c.s
@@ -809,6 +840,7 @@ vec.o: vec.c.o
 
 # target to build an object file
 vec.c.o:
+	$(MAKE) -f CMakeFiles/vector_test.dir/build.make CMakeFiles/vector_test.dir/vec.c.o
 	$(MAKE) -f CMakeFiles/string_test.dir/build.make CMakeFiles/string_test.dir/vec.c.o
 	$(MAKE) -f CMakeFiles/ccpoc.dir/build.make CMakeFiles/ccpoc.dir/vec.c.o
 	$(MAKE) -f CMakeFiles/alloc_test.dir/build.make CMakeFiles/alloc_test.dir/vec.c.o
@@ -820,6 +852,7 @@ vec.i: vec.c.i
 
 # target to preprocess a source file
 vec.c.i:
+	$(MAKE) -f CMakeFiles/vector_test.dir/build.make CMakeFiles/vector_test.dir/vec.c.i
 	$(MAKE) -f CMakeFiles/string_test.dir/build.make CMakeFiles/string_test.dir/vec.c.i
 	$(MAKE) -f CMakeFiles/ccpoc.dir/build.make CMakeFiles/ccpoc.dir/vec.c.i
 	$(MAKE) -f CMakeFiles/alloc_test.dir/build.make CMakeFiles/alloc_test.dir/vec.c.i
@@ -831,10 +864,38 @@ vec.s: vec.c.s
 
 # target to generate assembly for a file
 vec.c.s:
+	$(MAKE) -f CMakeFiles/vector_test.dir/build.make CMakeFiles/vector_test.dir/vec.c.s
 	$(MAKE) -f CMakeFiles/string_test.dir/build.make CMakeFiles/string_test.dir/vec.c.s
 	$(MAKE) -f CMakeFiles/ccpoc.dir/build.make CMakeFiles/ccpoc.dir/vec.c.s
 	$(MAKE) -f CMakeFiles/alloc_test.dir/build.make CMakeFiles/alloc_test.dir/vec.c.s
 .PHONY : vec.c.s
+
+vector_test.o: vector_test.c.o
+
+.PHONY : vector_test.o
+
+# target to build an object file
+vector_test.c.o:
+	$(MAKE) -f CMakeFiles/vector_test.dir/build.make CMakeFiles/vector_test.dir/vector_test.c.o
+.PHONY : vector_test.c.o
+
+vector_test.i: vector_test.c.i
+
+.PHONY : vector_test.i
+
+# target to preprocess a source file
+vector_test.c.i:
+	$(MAKE) -f CMakeFiles/vector_test.dir/build.make CMakeFiles/vector_test.dir/vector_test.c.i
+.PHONY : vector_test.c.i
+
+vector_test.s: vector_test.c.s
+
+.PHONY : vector_test.s
+
+# target to generate assembly for a file
+vector_test.c.s:
+	$(MAKE) -f CMakeFiles/vector_test.dir/build.make CMakeFiles/vector_test.dir/vector_test.c.s
+.PHONY : vector_test.c.s
 
 # Help Target
 help:
@@ -843,6 +904,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... vector_test"
 	@echo "... ContinuousCoverage"
 	@echo "... ContinuousTest"
 	@echo "... ContinuousBuild"
@@ -906,6 +968,9 @@ help:
 	@echo "... vec.o"
 	@echo "... vec.i"
 	@echo "... vec.s"
+	@echo "... vector_test.o"
+	@echo "... vector_test.i"
+	@echo "... vector_test.s"
 .PHONY : help
 
 

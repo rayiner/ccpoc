@@ -1,4 +1,5 @@
 /Users/Rayiner/Projects/ccpoc/build/CMakeFiles/rebuild_cache.dir
+/Users/Rayiner/Projects/ccpoc/build/CMakeFiles/vector_test.dir
 /Users/Rayiner/Projects/ccpoc/build/CMakeFiles/ContinuousCoverage.dir
 /Users/Rayiner/Projects/ccpoc/build/CMakeFiles/ContinuousTest.dir
 /Users/Rayiner/Projects/ccpoc/build/CMakeFiles/ContinuousBuild.dir
