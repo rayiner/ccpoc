@@ -30,6 +30,7 @@ CMakeFiles/alloc_test.dir/symtab.c.o: ../list.h
 CMakeFiles/alloc_test.dir/symtab.c.o: ../symbol.h
 CMakeFiles/alloc_test.dir/symtab.c.o: ../symtab.c
 CMakeFiles/alloc_test.dir/symtab.c.o: ../symtab.h
+CMakeFiles/alloc_test.dir/symtab.c.o: ../vec.h
 
 CMakeFiles/alloc_test.dir/vec.c.o: ../vec.c
 CMakeFiles/alloc_test.dir/vec.c.o: ../vec.h

@@ -1,5 +1,7 @@
 #include "vec.h"
 
+#include <assert.h>
+
 static void grow_vector(vector* vec, size_t size) {
     vec->base = realloc(vec->base, sizeof(void*) * size);
     vec->capacity = size;
@@ -23,6 +25,16 @@ void vector_pop(vector* vec) {
     --vec->length;
 }
 
+void *vector_top(vector* vec) {
+    assert(vec->length != 0);
+
+    return vec->base[vec->length - 1];
+}
+
 size_t vector_length(vector* vec) {
     return vec->length;
+}
+
+void vector_trim(vector *vec, size_t len) {
+    vec->length = len;
 }

@@ -29,6 +29,7 @@ CMakeFiles/ccpoc.dir/symtab.c.o: ../list.h
 CMakeFiles/ccpoc.dir/symtab.c.o: ../symbol.h
 CMakeFiles/ccpoc.dir/symtab.c.o: ../symtab.c
 CMakeFiles/ccpoc.dir/symtab.c.o: ../symtab.h
+CMakeFiles/ccpoc.dir/symtab.c.o: ../vec.h
 
 CMakeFiles/ccpoc.dir/vec.c.o: ../vec.c
 CMakeFiles/ccpoc.dir/vec.c.o: ../vec.h

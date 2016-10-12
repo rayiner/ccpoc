@@ -3,8 +3,11 @@
 
 #include "symbol.h"
 
-symbol *bind_symbol(char *name);
+void symtab_init();
+
 void push_scope();
 void pop_scope();
+
+symbol *bind_symbol(char *name);
 
 #endif

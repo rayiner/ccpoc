@@ -97,6 +97,10 @@ list.h
 /Users/Rayiner/Projects/ccpoc/symtab.c
 symtab.h
 /Users/Rayiner/Projects/ccpoc/symtab.h
+vec.h
+/Users/Rayiner/Projects/ccpoc/vec.h
+assert.h
+-
 
 /Users/Rayiner/Projects/ccpoc/symtab.h
 symbol.h
@@ -105,6 +109,8 @@ symbol.h
 /Users/Rayiner/Projects/ccpoc/vec.c
 vec.h
 /Users/Rayiner/Projects/ccpoc/vec.h
+assert.h
+-
 
 /Users/Rayiner/Projects/ccpoc/vec.h
 stdlib.h

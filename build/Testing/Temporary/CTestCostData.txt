@@ -1,4 +1,4 @@
-test_string 6 0.000586828
-test_alloc 5 0.0188178
-test_vector 1 0.00507402
+test_string 8 0.000373751
+test_alloc 7 0.012568
+test_vector 3 0.00174665
 ---

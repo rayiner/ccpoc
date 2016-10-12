@@ -4,10 +4,11 @@
 #include <stdlib.h>
 #include <string.h>
 
-strtab* strtab_make(size_t buckets) {
+strtab* strtab_make(size_t buckets, int interned_keys) {
 	strtab* tab = malloc(sizeof(strtab));
 	tab->buckets = (strtab_node**)calloc(buckets, sizeof(strtab_node*));
 	tab->bucket_count = buckets;
+	tab->interned_keys = interned_keys;
 
 	return tab;
 }
@@ -27,8 +28,14 @@ static strtab_node* strtab_find_node(char* key, size_t keylen, strtab* tab) {
 
 	strtab_node* node = tab->buckets[idx];
 	while(node != NULL) {
-		if(strncmp(key, node->key, keylen) == 0) {
-			return node;
+		if(tab->interned_keys == 1) {
+			if(key == node->key) {
+				return node;
+			}
+		} else {
+			if(strncmp(key, node->key, keylen) == 0) {
+				return node;
+			}
 		}
 	}
 

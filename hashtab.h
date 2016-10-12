@@ -12,9 +12,10 @@ typedef struct _strtab_node {
 typedef struct _strtab {
 	size_t bucket_count;
 	struct _strtab_node** buckets;
+	int interned_keys;
 } strtab;
 
-strtab* strtab_make(size_t buckets);
+strtab* strtab_make(size_t buckets, int interned_keys);
 void    strtab_insert(char* key, size_t keylen, void* value, strtab* tab);
 void*   strtab_find_val(char* key, size_t keylen, strtab* tab);
 char*	strtab_find_key(char* key, size_t keylen, strtab* tab);

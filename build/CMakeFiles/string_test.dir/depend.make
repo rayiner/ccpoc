@@ -30,6 +30,7 @@ CMakeFiles/string_test.dir/symtab.c.o: ../list.h
 CMakeFiles/string_test.dir/symtab.c.o: ../symbol.h
 CMakeFiles/string_test.dir/symtab.c.o: ../symtab.c
 CMakeFiles/string_test.dir/symtab.c.o: ../symtab.h
+CMakeFiles/string_test.dir/symtab.c.o: ../vec.h
 
 CMakeFiles/string_test.dir/vec.c.o: ../vec.c
 CMakeFiles/string_test.dir/vec.c.o: ../vec.h

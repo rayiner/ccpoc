@@ -27,6 +27,7 @@ CMakeFiles/vector_test.dir/symtab.c.o: ../list.h
 CMakeFiles/vector_test.dir/symtab.c.o: ../symbol.h
 CMakeFiles/vector_test.dir/symtab.c.o: ../symtab.c
 CMakeFiles/vector_test.dir/symtab.c.o: ../symtab.h
+CMakeFiles/vector_test.dir/symtab.c.o: ../vec.h
 
 CMakeFiles/vector_test.dir/vec.c.o: ../vec.c
 CMakeFiles/vector_test.dir/vec.c.o: ../vec.h

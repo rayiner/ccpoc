@@ -20,7 +20,7 @@ char* intern(char* str) {
 
 char* intern_n(char* str, size_t len) {
     if(table == NULL) {
-        table = strtab_make(BUCKET_COUNT);
+        table = strtab_make(BUCKET_COUNT, 0);
     }
 
     char* ret = strtab_find_key(str, len, table);

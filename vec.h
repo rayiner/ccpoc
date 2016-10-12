@@ -12,6 +12,8 @@ typedef struct _vector {
 void vector_init(vector* vec);
 void vector_push(void* ptr, vector* vec);
 void vector_pop(vector* vec);
+void *vector_top(vector* vec);
 size_t vector_length(vector* vec);
+void vector_trim(vector* vec, size_t len);
 
 #endif
