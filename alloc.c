@@ -25,3 +25,4 @@ void arena_clear(arena_block* arena) {
         free(temp);
     }
 }
+

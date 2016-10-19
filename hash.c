@@ -9,6 +9,7 @@
 #include <stdint.h>
 #include "hash.h"
 
+
 uint32_t hash_str (const char *key, uint32_t len, uint32_t seed) {
     uint32_t c1 = 0xcc9e2d51;
     uint32_t c2 = 0x1b873593;
@@ -25,7 +26,7 @@ uint32_t hash_str (const char *key, uint32_t len, uint32_t seed) {
     int l = len / 4; // chunk length
 
     h = seed;
-
+ 
     chunks = (const uint32_t *) (d + l * 4); // body
     tail = (const uint8_t *) (d + l * 4); // last 8 byte chunnk of `key'
 
@@ -70,3 +71,4 @@ uint32_t hash_str (const char *key, uint32_t len, uint32_t seed) {
 
     return h;
 }
+

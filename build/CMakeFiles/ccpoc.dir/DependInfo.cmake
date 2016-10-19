@@ -4,16 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/Rayiner/Projects/ccpoc/alloc.c" "/Users/Rayiner/Projects/ccpoc/build/CMakeFiles/ccpoc.dir/alloc.c.o"
-  "/Users/Rayiner/Projects/ccpoc/hash.c" "/Users/Rayiner/Projects/ccpoc/build/CMakeFiles/ccpoc.dir/hash.c.o"
-  "/Users/Rayiner/Projects/ccpoc/hashtab.c" "/Users/Rayiner/Projects/ccpoc/build/CMakeFiles/ccpoc.dir/hashtab.c.o"
-  "/Users/Rayiner/Projects/ccpoc/list.c" "/Users/Rayiner/Projects/ccpoc/build/CMakeFiles/ccpoc.dir/list.c.o"
-  "/Users/Rayiner/Projects/ccpoc/main.c" "/Users/Rayiner/Projects/ccpoc/build/CMakeFiles/ccpoc.dir/main.c.o"
-  "/Users/Rayiner/Projects/ccpoc/string.c" "/Users/Rayiner/Projects/ccpoc/build/CMakeFiles/ccpoc.dir/string.c.o"
-  "/Users/Rayiner/Projects/ccpoc/symtab.c" "/Users/Rayiner/Projects/ccpoc/build/CMakeFiles/ccpoc.dir/symtab.c.o"
-  "/Users/Rayiner/Projects/ccpoc/vec.c" "/Users/Rayiner/Projects/ccpoc/build/CMakeFiles/ccpoc.dir/vec.c.o"
+  "/home/rayiner/projects/ccpoc/alloc.c" "/home/rayiner/projects/ccpoc/build/CMakeFiles/ccpoc.dir/alloc.c.o"
+  "/home/rayiner/projects/ccpoc/hash.c" "/home/rayiner/projects/ccpoc/build/CMakeFiles/ccpoc.dir/hash.c.o"
+  "/home/rayiner/projects/ccpoc/hashtab.c" "/home/rayiner/projects/ccpoc/build/CMakeFiles/ccpoc.dir/hashtab.c.o"
+  "/home/rayiner/projects/ccpoc/list.c" "/home/rayiner/projects/ccpoc/build/CMakeFiles/ccpoc.dir/list.c.o"
+  "/home/rayiner/projects/ccpoc/main.c" "/home/rayiner/projects/ccpoc/build/CMakeFiles/ccpoc.dir/main.c.o"
+  "/home/rayiner/projects/ccpoc/string.c" "/home/rayiner/projects/ccpoc/build/CMakeFiles/ccpoc.dir/string.c.o"
+  "/home/rayiner/projects/ccpoc/symtab.c" "/home/rayiner/projects/ccpoc/build/CMakeFiles/ccpoc.dir/symtab.c.o"
+  "/home/rayiner/projects/ccpoc/vec.c" "/home/rayiner/projects/ccpoc/build/CMakeFiles/ccpoc.dir/vec.c.o"
   )
-set(CMAKE_C_COMPILER_ID "AppleClang")
+set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH

@@ -6,25 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/Users/Rayiner/Projects/ccpoc/alloc.c
+/home/rayiner/projects/ccpoc/alloc.c
 c.h
-/Users/Rayiner/Projects/ccpoc/c.h
+/home/rayiner/projects/ccpoc/c.h
 alloc.h
-/Users/Rayiner/Projects/ccpoc/alloc.h
+/home/rayiner/projects/ccpoc/alloc.h
 stdlib.h
 -
 assert.h
 -
 
-/Users/Rayiner/Projects/ccpoc/alloc.h
+/home/rayiner/projects/ccpoc/alloc.h
 stdint.h
 -
 stddef.h
 -
 
-/Users/Rayiner/Projects/ccpoc/c.h
+/home/rayiner/projects/ccpoc/c.h
 
-/Users/Rayiner/Projects/ccpoc/hash.c
+/home/rayiner/projects/ccpoc/hash.c
 stdlib.h
 -
 stdio.h
@@ -32,47 +32,47 @@ stdio.h
 stdint.h
 -
 hash.h
-/Users/Rayiner/Projects/ccpoc/hash.h
+/home/rayiner/projects/ccpoc/hash.h
 
-/Users/Rayiner/Projects/ccpoc/hash.h
+/home/rayiner/projects/ccpoc/hash.h
 stdint.h
 -
 
-/Users/Rayiner/Projects/ccpoc/hashtab.c
+/home/rayiner/projects/ccpoc/hashtab.c
 hashtab.h
-/Users/Rayiner/Projects/ccpoc/hashtab.h
+/home/rayiner/projects/ccpoc/hashtab.h
 hash.h
-/Users/Rayiner/Projects/ccpoc/hash.h
+/home/rayiner/projects/ccpoc/hash.h
 stdlib.h
 -
 string.h
 -
 
-/Users/Rayiner/Projects/ccpoc/hashtab.h
+/home/rayiner/projects/ccpoc/hashtab.h
 stdlib.h
 -
 
-/Users/Rayiner/Projects/ccpoc/list.c
+/home/rayiner/projects/ccpoc/list.c
 list.h
-/Users/Rayiner/Projects/ccpoc/list.h
+/home/rayiner/projects/ccpoc/list.h
 alloc.h
-/Users/Rayiner/Projects/ccpoc/alloc.h
+/home/rayiner/projects/ccpoc/alloc.h
 stdlib.h
 -
 
-/Users/Rayiner/Projects/ccpoc/list.h
+/home/rayiner/projects/ccpoc/list.h
 
-/Users/Rayiner/Projects/ccpoc/string.c
+/home/rayiner/projects/ccpoc/string.c
 c.h
-/Users/Rayiner/Projects/ccpoc/c.h
+/home/rayiner/projects/ccpoc/c.h
 string.h
-/Users/Rayiner/Projects/ccpoc/string.h
+/home/rayiner/projects/ccpoc/string.h
 alloc.h
-/Users/Rayiner/Projects/ccpoc/alloc.h
+/home/rayiner/projects/ccpoc/alloc.h
 hash.h
-/Users/Rayiner/Projects/ccpoc/hash.h
+/home/rayiner/projects/ccpoc/hash.h
 hashtab.h
-/Users/Rayiner/Projects/ccpoc/hashtab.h
+/home/rayiner/projects/ccpoc/hashtab.h
 stdint.h
 -
 stddef.h
@@ -80,41 +80,43 @@ stddef.h
 string.h
 -
 
-/Users/Rayiner/Projects/ccpoc/string.h
+/home/rayiner/projects/ccpoc/string.h
 stddef.h
 -
 
-/Users/Rayiner/Projects/ccpoc/string_test.c
+/home/rayiner/projects/ccpoc/string_test.c
 string.h
-/Users/Rayiner/Projects/ccpoc/string.h
+/home/rayiner/projects/ccpoc/string.h
 stdio.h
 -
 string.h
 -
 
-/Users/Rayiner/Projects/ccpoc/symbol.h
+/home/rayiner/projects/ccpoc/symbol.h
 list.h
-/Users/Rayiner/Projects/ccpoc/list.h
+/home/rayiner/projects/ccpoc/list.h
 
-/Users/Rayiner/Projects/ccpoc/symtab.c
+/home/rayiner/projects/ccpoc/symtab.c
 symtab.h
-/Users/Rayiner/Projects/ccpoc/symtab.h
+/home/rayiner/projects/ccpoc/symtab.h
 vec.h
-/Users/Rayiner/Projects/ccpoc/vec.h
+/home/rayiner/projects/ccpoc/vec.h
+stdio.h
+-
 assert.h
 -
 
-/Users/Rayiner/Projects/ccpoc/symtab.h
+/home/rayiner/projects/ccpoc/symtab.h
 symbol.h
-/Users/Rayiner/Projects/ccpoc/symbol.h
+/home/rayiner/projects/ccpoc/symbol.h
 
-/Users/Rayiner/Projects/ccpoc/vec.c
+/home/rayiner/projects/ccpoc/vec.c
 vec.h
-/Users/Rayiner/Projects/ccpoc/vec.h
+/home/rayiner/projects/ccpoc/vec.h
 assert.h
 -
 
-/Users/Rayiner/Projects/ccpoc/vec.h
+/home/rayiner/projects/ccpoc/vec.h
 stdlib.h
 -
 

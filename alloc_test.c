@@ -23,6 +23,7 @@ int main(int argc, char **argv) {
         allocs[i] = (char *)arena_alloc(sizes[i], &arena);
     }
 
+
     for (int i = 0; i < ALLOCS; ++i) {
         for (int j = 0; j < sizes[i]; ++j) {
             allocs[i][j] = 123;
