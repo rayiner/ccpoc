@@ -1,9 +1,9 @@
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 2.8)
 project(ccpoc)
 
 include(CTest)
 
-set(C_STANDARD c90)
+set(CMAKE_C_STANDARD 99)
 
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 

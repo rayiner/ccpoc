@@ -14,7 +14,7 @@ strtab *strtab_make(size_t buckets, int interned_keys) {
 }
 
 void strtab_insert(char *key, size_t keylen, void *value, strtab *tab) {
-    strtab_node *node = (strtab_node *)calloc(1, sizeof(strtab_node));
+    strtab_node *node = (strtab_node *)calloc(1, sizeof(strtab_node)); 
     node->key = strndup(key, keylen);
     node->value = value;
 

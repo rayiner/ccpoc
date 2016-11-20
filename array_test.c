@@ -1,6 +1,6 @@
-#include  "array.h"
+#include "array.h"
 
-#define ITERATIONS 4096
+#define ITERATIONS 1000
 #define MAX_ITEMS 100
 
 typedef struct _pair {
@@ -34,7 +34,7 @@ int main() {
 		return -1;
 	    }
 
-	    array_pop(&arr);
+            array_pop(&arr);
 	}
     }
 
